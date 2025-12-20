@@ -35,6 +35,9 @@ class Croissant:
         file_menu.add_command(label="Set Background", command=self.set_background)
         file_menu.add_command(label="Set Background Color", command=self.set_bg_color)
         file_menu.add_command(label="Fullscreen = <F11>", command=self.toggle_fullscreen)
+        
+
+
 
 
 
