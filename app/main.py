@@ -58,13 +58,13 @@ class Croissant:
             if color[1]: 
                 self.canvas.config(bg=color[1])
 
-        def on_resize(self, event=none): 
+        def on_resize(self, event=None): 
             w=self.canvas.winfo_width()
             h=self.canvas.winfo_height()
             if w>1 and h>1: 
                 self.canvas.cords(self.counter_window,w//2, h//4)
                 self.canvas.cords(self.heart_window,w//2, h//2)
-                
+
 
                 
 
